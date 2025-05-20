@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <Project_Created_Time>2025-05-17 07:35:44</Project_Created_Time>
+    <TD_Version>4.6.18154</TD_Version>
+    <UCode>00000000</UCode>
+    <Name>T76</Name>
+    <HardWare>
+        <Family>EG4</Family>
+        <Device>EG4X20BG256</Device>
+    </HardWare>
+    <Source_Files>
+        <Verilog>
+            <File>pulse.v</File>
+            <File>t76.v</File>
+        </Verilog>
+        <ADC_FILE>t76.adc</ADC_FILE>
+        <SDC_FILE/>
+        <CWC_FILE/>
+    </Source_Files>
+    <TOP_MODULE>
+        <LABEL/>
+        <MODULE>clock_sniffer</MODULE>
+        <CREATEINDEX>auto</CREATEINDEX>
+    </TOP_MODULE>
+    <Device_Settings>
+        <EG4X/>
+    </Device_Settings>
+    <Property>
+        <BitgenProperty::GeneralOption>
+            <s>on</s>
+            <time_info>off</time_info>
+        </BitgenProperty::GeneralOption>
+    </Property>
+    <Project_Settings>
+        <Step_Last_Change>2025-05-20 16:59:25</Step_Last_Change>
+        <Current_Step>0</Current_Step>
+        <Step_Status>true</Step_Status>
+    </Project_Settings>
+</Project>
