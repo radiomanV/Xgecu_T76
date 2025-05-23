@@ -40,13 +40,7 @@ python3 t76_uploader.py test_design.bit
 ## Requirements
 
 - Python 3.x
-- [PyUSB](https://github.com/pyusb/pyusb)
 
-  Install via pip:
-
-  ```bash
-  pip install pyusb
-  ```
 
 - **libusb backend:**
   - **Linux/macOS:**  
