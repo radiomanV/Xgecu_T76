@@ -104,7 +104,7 @@ class T76Device:
 
         if not self.handle:
             libusb.libusb_exit(self.ctx)
-            raise RuntimeError("Device not found in list")
+            raise RuntimeError("No T76 device found")
 
         if libusb.libusb_claim_interface(self.handle, 0) != 0:
             libusb.libusb_close(self.handle)

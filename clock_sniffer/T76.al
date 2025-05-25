@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project Version="1" Path="/home/radioman/development/Xgecu_T76/clock_sniffer">
-    <Project_Created_Time>2025-05-23 10:12:37</Project_Created_Time>
+    <Project_Created_Time>2025-05-26 12:17:11</Project_Created_Time>
     <TD_Version>5.0.28716</TD_Version>
     <UCode>00000000</UCode>
     <Name>T76</Name>
@@ -15,7 +15,7 @@
                     <Attr Name="UsedInSyn" Val="true"/>
                     <Attr Name="UsedInP&R" Val="true"/>
                     <Attr Name="BelongTo" Val="design_1"/>
-                    <Attr Name="CompileOrder" Val="2"/>
+                    <Attr Name="CompileOrder" Val="1"/>
                 </FileInfo>
             </File>
         </Verilog>
@@ -29,6 +29,16 @@
                 </FileInfo>
             </File>
         </ADC_FILE>
+        <SDC_FILE>
+            <File Path="timing.sdc">
+                <FileInfo>
+                    <Attr Name="UsedInSyn" Val="true"/>
+                    <Attr Name="UsedInP&R" Val="true"/>
+                    <Attr Name="BelongTo" Val="constrain_1"/>
+                    <Attr Name="CompileOrder" Val="2"/>
+                </FileInfo>
+            </File>
+        </SDC_FILE>
     </Source_Files>
     <FileSets>
         <FileSet Name="constrain_1" Type="ConstrainFiles">
@@ -51,7 +61,7 @@
     <Configurations>
     </Configurations>
     <Project_Settings>
-        <Step_Last_Change>2025-05-23 11:16:14.887</Step_Last_Change>
+        <Step_Last_Change>2025-05-26 18:12:40.558</Step_Last_Change>
         <Current_Step>0</Current_Step>
         <Step_Status>true</Step_Status>
     </Project_Settings>

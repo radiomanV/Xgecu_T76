@@ -51,5 +51,10 @@ python3 t76_uploader.py test_design.bit
     ```
 
   - **Windows:**  
-    Use [Zadig](https://zadig.akeo.ie/) to install the **WinUSB driver** for the T76 device.
+    Use official Xgecu driver for the T76 device.
 
+
+## License
+
+This project is released under [The Unlicense](https://unlicense.org/).  
+You are free to do anything with this software.
